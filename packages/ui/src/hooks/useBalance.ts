@@ -1,4 +1,4 @@
-import { RecoilValue, useRecoilValue } from "recoil";
+import {  useRecoilValue } from "recoil";
 import { balanceAtom } from "../atom/balance";
 
 export const useBalance=()=>{
