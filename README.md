@@ -138,3 +138,4 @@ Learn more about the power of Turborepo:
 
 #need to update packages for the src components global
 #the provider isnt being aplied to the layout.tsx in the client-app
+#ensure apps login works properly because i havnt tested it 
