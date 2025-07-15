@@ -134,8 +134,10 @@ Learn more about the power of Turborepo:
 - [Configuration Options](https://turborepo.com/docs/reference/configuration)
 - [CLI Usage](https://turborepo.com/docs/reference/command-line-reference)
 
-
+<!-- leaving the first three cause i need to focus on creating the app -->
 
 #need to update packages for the src components global
 #the provider isnt being aplied to the layout.tsx in the client-app
 #ensure apps login works properly because i havnt tested it 
+
+<!-- need to add zod validation in expresss leaving cause i dont know zod -->
