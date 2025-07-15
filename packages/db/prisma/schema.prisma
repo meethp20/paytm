@@ -14,8 +14,17 @@ datasource db {
 }
 
 model User {
-  id       String @unique @default(uuid())
+  id       String    @unique @default(uuid())
   Name     String
   password String
-  balance  String
+  phoneNo  String
+  email    String
+  balance  Balance[]
+}
+
+model Balance {
+  Balanceid String @unique
+
+  User   User?   @relation(fields: [userId], references: [id])
+  userId String?
 }
