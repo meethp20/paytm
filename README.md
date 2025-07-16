@@ -141,3 +141,14 @@ Learn more about the power of Turborepo:
 #ensure apps login works properly because i havnt tested it 
 
 <!-- need to add zod validation in expresss leaving cause i dont know zod -->
+
+
+
+ #didnt add any thing needed in the json files so a little bit lazy yeah
+
+ what do i feel scary rn ? well the ramping express part ? ok do ik how it work ? well yes , dk whats the catch w the tokens tho , cool so lets focuz on that
+
+ #tailwind not working , something wrong with the repos not coming when needed 
+
+ #not adding side bar for the moment jsut to do it later 
+ #

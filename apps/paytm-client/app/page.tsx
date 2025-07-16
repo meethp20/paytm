@@ -1,12 +1,13 @@
+import { getServerSession } from "next-auth";
+import { authOptions } from "./lib/auth";
 
 
-export default function Home(){
+export default async function Home(){
 
-  return(
-    <div className=" w-full h-full flex justify-center items-center">
-      <div className="w-[100px] h-[100px] bg-white text-black ">
-      Hi 
-      </div>
-    </div>
-  )
+ const session=await getServerSession(authOptions)
+ if(session?.user){
+  redirect('/dashboard')
+ }else{
+  redirect('/api/auth/signin')
+ }
 }
