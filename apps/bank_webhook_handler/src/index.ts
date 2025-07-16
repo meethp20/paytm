@@ -1,4 +1,5 @@
 import express from "express"
+
 const app = express()
 
 app.post('/hdfcbankserver',(res,req)=>{
@@ -8,4 +9,9 @@ app.post('/hdfcbankserver',(res,req)=>{
         userId:req.body.user_identifier,
         amount:req.body.amount
     }
+
+    try{
+
+    }
+
 })
