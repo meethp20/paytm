@@ -140,7 +140,7 @@ Learn more about the power of Turborepo:
 #the provider isnt being aplied to the layout.tsx in the client-app
 #ensure apps login works properly because i havnt tested it 
 
-<!-- need to add zod validation in expresss leaving cause i dont know zod -->
+<!-- need to add zod validation in expresss leaving cause i didnt ever do it before -->
 
 
 
