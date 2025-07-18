@@ -3,7 +3,7 @@ import AddMoney from "../../../../packages/ui/src/AddMoneyComponent";
 import OnRampTransactions from "../components/OnRampTransactions";
 import BalanceCard from "../components/BalanceCard";
 import { getServerSession } from "next-auth";
-//need to add prisma
+import prisma
 import { authOptions } from "../lib/auth";
 async function getBalance(){
 
