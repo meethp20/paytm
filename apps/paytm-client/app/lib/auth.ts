@@ -1,4 +1,4 @@
-// 
+import db from "../../../../packages/db/prisma/db";
 import CredentialsProvider from "next-auth/providers/credentials"
 import bcrypt from "bcrypt";
 
